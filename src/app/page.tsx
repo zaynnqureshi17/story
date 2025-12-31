@@ -22,7 +22,7 @@ export default function Home() {
             The Night We Chose Us
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 italic font-light px-4">
-            A dream I never wanted to wake from...
+            A night I will hold onto forever...
           </p>
 
           {/* Decorative element */}
@@ -42,11 +42,11 @@ export default function Home() {
               I. The Red Saree
             </h2>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
-              <span className="drop-cap">I</span>
-              had a dream last night. The kind that stays with you long after you open your eyes,
-              clinging to your heart like morning mist over still water. In that dream, we were
-              supposed to attend an event. One of those gatherings where people talk too much
-              and mean too little, where smiles are polished and conversations feel hollow.
+              <span className="drop-cap">T</span>
+              here are some nights that stay with you forever. Nights that settle into your bones
+              and become a part of who you are. This was one of those nights. We were supposed to
+              attend an event. One of those gatherings where people talk too much and mean too little,
+              where smiles are polished and conversations feel hollow.
             </p>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
               You were wearing a red saree. Not maroon, not crimson, but <em className="text-amber-400">red</em>.
@@ -224,7 +224,7 @@ export default function Home() {
                 &quot;For me,&quot; I whispered, pulling you closer, &quot;you are everything.
                 You are my crowd and my solitude. My chaos and my calm. In a world of
                 billions, you are the only one I see. The only one I need. The only one
-                I choose, again and again, in every lifetime, in every dream.&quot;
+                I choose, again and again, for the rest of my life.&quot;
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
@@ -245,20 +245,19 @@ export default function Home() {
           {/* Epilogue */}
           <section className="text-center px-2 sm:px-4 md:px-12">
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 leading-relaxed">
-              I woke up eventually, as we all must from the sweetest dreams. The morning
-              light filtered through the curtains, harsh and unwelcome. But something was
-              different. The warmth of the dream lingered, wrapped around my heart like
-              your arms around my waist.
+              That night, we stayed until the first light of dawn touched the water. We watched
+              the stars fade one by one, making room for the sun. And when we finally drove home,
+              something had changed. Not between us, but within us. A quiet certainty that
+              needed no words.
             </p>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 leading-relaxed">
-              Some dreams are just dreams. Fleeting visitors that vanish with the dawn.
-              But this one? This one felt like a memory. Like a glimpse of something that
-              was, or will be, or perhaps exists in some universe where we are sitting by
-              that lake right now, watching stars fall into still water, holding onto each
-              other like the world outside doesn&apos;t matter.
+              There will be other events, other gatherings we&apos;ll be expected to attend.
+              And maybe sometimes we&apos;ll go. But we&apos;ll always have this. Our lake.
+              Our stars. Our quiet rebellion against a world that demands too much and
+              gives too little.
             </p>
             <p className="text-base sm:text-xl text-gray-200 mb-8 sm:mb-12 leading-relaxed">
-              Because when I&apos;m with you, it doesn&apos;t.
+              Because when I&apos;m with you, the world outside doesn&apos;t matter.
             </p>
 
             {/* Final line */}
