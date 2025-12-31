@@ -189,12 +189,12 @@ export default function Home() {
           {/* You Are My World */}
           <section>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
-              <span className="drop-cap">Y</span>
-              ou said something that night, your voice soft against the silence.
+              <span className="drop-cap">I</span>
+              &nbsp;asked you something that night, my voice soft against the silence.
             </p>
             <div className="romantic-quote my-6 sm:my-10">
               <p className="text-base sm:text-xl text-gray-300 italic">
-                &quot;Do you remember what you were like when we first met?&quot;
+                &quot;Do you remember how I was when we first met?&quot;
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
