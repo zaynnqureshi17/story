@@ -61,8 +61,8 @@ export default function Home() {
             </p>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
               Your fingers paused on the earring. Through the mirror, our eyes met. Yours
-              holding entire galaxies, mine holding only you. I pressed a gentle kiss to
-              your shoulder, feeling you lean back into me ever so slightly. In that single
+              holding entire galaxies, mine holding only you. I closed my eyes, just
+              breathing you in, feeling you lean back into me ever so slightly. In that single
               moment, wrapped around you like I was made for this, I understood what it
               means to be exactly where you belong.
             </p>
@@ -78,8 +78,8 @@ export default function Home() {
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 text-justify leading-relaxed indent-6 sm:indent-12">
-              You smiled. That smile that has ruined me for anyone else. You turned your head
-              just enough to brush your lips against my cheek, and simply nodded. No words
+              You smiled. That smile that has ruined me for anyone else. You reached up
+              and gently squeezed my hand that rested on your waist, and simply nodded. No words
               were needed. Some conversations happen in silence, spoken in the language only
               two souls who truly know each other can understand.
             </p>
