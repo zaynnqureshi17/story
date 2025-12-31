@@ -24,7 +24,7 @@ body {
   height: 100%;
   background-image: url('/bg.png');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   z-index: 0;
 }
@@ -125,24 +125,39 @@ body {
   content: '';
   position: absolute;
   top: 0;
-  left: -20px;
-  width: 3px;
+  left: -12px;
+  width: 2px;
   height: 100%;
   background: linear-gradient(180deg, transparent, #f5a623, transparent);
   opacity: 0.6;
   border-radius: 2px;
 }
 
-/* Drop cap styling - warm gold */
+@media (min-width: 640px) {
+  .section-glow::before {
+    left: -20px;
+    width: 3px;
+  }
+}
+
+/* Drop cap styling - warm gold - responsive */
 .drop-cap {
   float: left;
   font-family: 'Playfair Display', serif;
-  font-size: 4.5rem;
+  font-size: 3rem;
   line-height: 0.8;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
   color: #f5a623;
   text-shadow: 0 0 30px rgba(245, 166, 35, 0.5);
+}
+
+@media (min-width: 640px) {
+  .drop-cap {
+    font-size: 4.5rem;
+    padding-right: 12px;
+    padding-top: 8px;
+  }
 }
 
 /* Decorative divider - warm tones */
@@ -150,7 +165,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .divider {
+    margin: 3rem 0;
+  }
 }
 
 .divider::before,
@@ -162,9 +183,15 @@ body {
 }
 
 .divider-icon {
-  padding: 0 1rem;
+  padding: 0 0.75rem;
   color: #f5a623;
   opacity: 0.7;
+}
+
+@media (min-width: 640px) {
+  .divider-icon {
+    padding: 0 1rem;
+  }
 }
 
 /* Fade in animation */
@@ -183,52 +210,88 @@ body {
   animation: fadeInUp 1s ease-out forwards;
 }
 
-/* Quote styling - warm amber */
+/* Quote styling - warm amber - responsive */
 .romantic-quote {
   position: relative;
-  padding: 1.5rem 2rem;
-  margin: 2rem 0;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
   background: linear-gradient(135deg, rgba(245, 166, 35, 0.08), rgba(255, 204, 128, 0.05));
   border-left: 3px solid #f5a623;
   border-radius: 0 8px 8px 0;
   backdrop-filter: blur(5px);
 }
 
+@media (min-width: 640px) {
+  .romantic-quote {
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+  }
+}
+
 .romantic-quote::before {
   content: '"';
   position: absolute;
-  top: -10px;
-  left: 10px;
-  font-size: 4rem;
+  top: -5px;
+  left: 8px;
+  font-size: 2.5rem;
   color: rgba(245, 166, 35, 0.25);
   font-family: 'Playfair Display', serif;
 }
 
-/* Warm glow effect */
+@media (min-width: 640px) {
+  .romantic-quote::before {
+    top: -10px;
+    left: 10px;
+    font-size: 4rem;
+  }
+}
+
+/* Warm glow effect - responsive */
 .warm-glow {
   position: fixed;
   top: 5%;
   right: 5%;
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   background: radial-gradient(circle, rgba(245, 166, 35, 0.15) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
   z-index: 1;
-  filter: blur(20px);
+  filter: blur(15px);
 }
 
-/* Story container glass effect */
+@media (min-width: 640px) {
+  .warm-glow {
+    width: 150px;
+    height: 150px;
+    filter: blur(20px);
+  }
+}
+
+/* Story container glass effect - responsive */
 .story-container {
-  background: rgba(10, 10, 15, 0.75);
+  background: rgba(10, 10, 15, 0.8);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(245, 166, 35, 0.1);
-  border-radius: 16px;
+  border-radius: 12px;
+}
+
+@media (min-width: 640px) {
+  .story-container {
+    background: rgba(10, 10, 15, 0.75);
+    border-radius: 16px;
+  }
 }
 
 /* Scrollbar styling */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
+}
+
+@media (min-width: 640px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 }
 
 ::-webkit-scrollbar-track {
@@ -242,4 +305,9 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(245, 166, 35, 0.5);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
