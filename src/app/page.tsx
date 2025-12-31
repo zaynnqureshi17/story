@@ -1,39 +1,44 @@
 export default function Home() {
   return (
     <div className="min-h-screen relative">
-      {/* Animated stars background */}
+      {/* Background image with gradient overlay */}
+      <div className="hero-bg" />
+
+      {/* Animated snow/stars overlay */}
       <div className="stars-bg" />
-      <div className="moon-glow" />
+
+      {/* Warm glow effect */}
+      <div className="warm-glow" />
 
       {/* Main content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-16">
 
         {/* Header */}
         <header className="text-center mb-20 pt-10">
-          <p className="text-rose-400/60 text-sm tracking-[0.3em] uppercase mb-6">
+          <p className="text-amber-400/70 text-sm tracking-[0.3em] uppercase mb-6">
             A Story Written in Stardust
           </p>
           <h1 className="text-5xl md:text-7xl font-light tracking-wide mb-6 title-shimmer font-['Playfair_Display']">
             The Night We Chose Us
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 italic font-light">
+          <p className="text-xl md:text-2xl text-gray-300 italic font-light">
             A dream I never wanted to wake from...
           </p>
 
           {/* Decorative element */}
           <div className="mt-10 flex justify-center items-center gap-4">
-            <span className="w-16 h-px bg-gradient-to-r from-transparent to-rose-500/50" />
-            <span className="text-rose-500/40 text-2xl">&#10045;</span>
-            <span className="w-16 h-px bg-gradient-to-l from-transparent to-rose-500/50" />
+            <span className="w-16 h-px bg-gradient-to-r from-transparent to-amber-500/50" />
+            <span className="text-amber-500/50 text-2xl">&#10045;</span>
+            <span className="w-16 h-px bg-gradient-to-l from-transparent to-amber-500/50" />
           </div>
         </header>
 
         {/* Story Content */}
-        <main className="space-y-16">
+        <main className="story-container p-8 md:p-12 space-y-16">
 
           {/* Part 1 - The Red Saree */}
           <section className="section-glow pl-8 fade-in">
-            <h2 className="text-3xl text-rose-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
+            <h2 className="text-3xl text-amber-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
               I. The Red Saree
             </h2>
             <p className="text-xl text-gray-200 mb-8 text-justify leading-relaxed">
@@ -44,7 +49,7 @@ export default function Home() {
               and mean too little, where smiles are polished and conversations are hollow.
             </p>
             <p className="text-xl text-gray-200 mb-8 text-justify leading-relaxed indent-12">
-              You were wearing a red saree. Not maroon, not crimson — but <em className="text-rose-400">red</em>.
+              You were wearing a red saree. Not maroon, not crimson — but <em className="text-amber-400">red</em>.
               The kind of red that poets write about, the shade of love letters sealed with longing,
               of roses left on windowsills. You stood before the mirror, fastening your earrings, and
               I watched you from across the room, already dressed but somehow incomplete.
@@ -90,7 +95,7 @@ export default function Home() {
 
           {/* Part 2 - Dinner & The Long Drive */}
           <section className="section-glow pl-8">
-            <h2 className="text-3xl text-rose-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
+            <h2 className="text-3xl text-amber-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
               II. Dinner &amp; The Long Drive
             </h2>
             <p className="text-xl text-gray-200 mb-8 text-justify leading-relaxed">
@@ -105,7 +110,7 @@ export default function Home() {
               After dinner, we drove. Not toward anywhere in particular — just away. The
               city lights faded behind us, replaced by the quiet darkness of empty roads
               and open skies. The windows were down, and the cool night air carried the
-              scent of freedom, of possibility, of <em className="text-rose-400">us</em>.
+              scent of freedom, of possibility, of <em className="text-amber-400">us</em>.
             </p>
             <p className="text-xl text-gray-200 mb-8 text-justify leading-relaxed indent-12">
               Your hand found mine somewhere along the way. You didn&apos;t say anything.
@@ -126,12 +131,12 @@ export default function Home() {
 
           {/* Part 3 - Our Spot */}
           <section className="section-glow pl-8">
-            <h2 className="text-3xl text-rose-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
+            <h2 className="text-3xl text-amber-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
               III. Our Spot
             </h2>
             <p className="text-xl text-gray-200 mb-8 text-justify leading-relaxed">
               <span className="drop-cap">A</span>
-              few kilometers down the street, there&apos;s a place. <em className="text-rose-400">Our place</em>.
+              few kilometers down the street, there&apos;s a place. <em className="text-amber-400">Our place</em>.
               A lake that most people drive past without a second glance, hidden from the noise of
               the world. But we found it — or maybe it found us — and it became ours.
               A sanctuary. A secret kept between the stars and our hearts.
@@ -151,7 +156,7 @@ export default function Home() {
             </p>
             <p className="text-xl text-gray-200 text-justify leading-relaxed indent-12">
               We sat at the water&apos;s edge, shoulders touching, watching the stars
-              dance on the surface. The silence wasn&apos;t empty — it was <em className="text-rose-400">full</em>.
+              dance on the surface. The silence wasn&apos;t empty — it was <em className="text-amber-400">full</em>.
               Full of everything we&apos;ve shared, everything we are, everything we will be.
             </p>
           </section>
@@ -163,7 +168,7 @@ export default function Home() {
 
           {/* Part 4 - Hours Like Minutes */}
           <section className="section-glow pl-8">
-            <h2 className="text-3xl text-rose-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
+            <h2 className="text-3xl text-amber-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
               IV. Hours Like Minutes
             </h2>
             <p className="text-xl text-gray-200 mb-8 text-justify leading-relaxed">
@@ -177,7 +182,7 @@ export default function Home() {
               When the cold began to creep in, I noticed you shiver — just slightly,
               trying to hide it. Without a word, I slipped off my blazer and draped it
               over your shoulders. You looked up at me with those eyes that hold entire
-              universes, and I made a silent promise: <em className="text-rose-400">I will never let you feel cold.
+              universes, and I made a silent promise: <em className="text-amber-400">I will never let you feel cold.
               Not tonight. Not ever.</em>
             </p>
             <p className="text-xl text-gray-200 text-justify leading-relaxed indent-12">
@@ -195,7 +200,7 @@ export default function Home() {
 
           {/* Part 5 - You Are My World */}
           <section className="section-glow pl-8">
-            <h2 className="text-3xl text-rose-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
+            <h2 className="text-3xl text-amber-400 mb-8 font-['Playfair_Display'] font-light tracking-wide">
               V. You Are My World
             </h2>
             <p className="text-xl text-gray-200 mb-8 text-justify leading-relaxed">
@@ -214,7 +219,7 @@ export default function Home() {
               And then I thought about you — constant, unwavering, the only presence
               that has ever made sense in the beautiful chaos of existence.
             </p>
-            <div className="romantic-quote my-10 border-rose-400">
+            <div className="romantic-quote my-10">
               <p className="text-xl text-gray-200 italic leading-relaxed">
                 &quot;For me,&quot; I whispered, pulling you closer, &quot;you are everything.
                 You are my crowd and my solitude. My chaos and my calm. In a world of
@@ -227,7 +232,7 @@ export default function Home() {
               in their depths. Some people spend their whole lives searching for home,
               wandering through the world looking for a place to belong.
             </p>
-            <p className="text-xl text-gray-200 text-justify leading-relaxed indent-12 text-rose-300">
+            <p className="text-xl text-amber-300 text-justify leading-relaxed indent-12">
               I found mine in you.
             </p>
           </section>
@@ -257,10 +262,10 @@ export default function Home() {
             </p>
 
             {/* Final line */}
-            <div className="mt-16 py-8 border-t border-b border-rose-500/20">
-              <p className="text-2xl md:text-3xl text-rose-400 italic font-['Playfair_Display'] leading-relaxed">
+            <div className="mt-16 py-8 border-t border-b border-amber-500/20">
+              <p className="text-2xl md:text-3xl text-amber-400 italic font-['Playfair_Display'] leading-relaxed">
                 You, in your red saree, under a sky full of stars —<br />
-                <span className="text-rose-300">you are my forever.</span>
+                <span className="text-amber-300">you are my forever.</span>
               </p>
             </div>
           </section>
@@ -270,11 +275,11 @@ export default function Home() {
         {/* Footer */}
         <footer className="text-center mt-24 pb-12">
           <div className="flex justify-center items-center gap-4 mb-6">
-            <span className="w-12 h-px bg-gradient-to-r from-transparent to-rose-500/30" />
-            <span className="text-rose-500/30 text-xl">&#10084;</span>
-            <span className="w-12 h-px bg-gradient-to-l from-transparent to-rose-500/30" />
+            <span className="w-12 h-px bg-gradient-to-r from-transparent to-amber-500/30" />
+            <span className="text-amber-500/40 text-xl">&#10084;</span>
+            <span className="w-12 h-px bg-gradient-to-l from-transparent to-amber-500/30" />
           </div>
-          <p className="text-gray-500 italic text-lg">
+          <p className="text-gray-400 italic text-lg">
             &quot;For me, you are everything.&quot;
           </p>
         </footer>

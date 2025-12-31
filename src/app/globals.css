@@ -12,11 +12,40 @@
 
 body {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #0f0f1a 100%);
   min-height: 100vh;
 }
 
-/* Animated stars background */
+/* Hero background image */
+.hero-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 15, 0.3) 0%,
+    rgba(10, 10, 15, 0.7) 30%,
+    rgba(10, 10, 15, 0.92) 60%,
+    rgba(10, 10, 15, 0.98) 100%
+  );
+}
+
+/* Animated snow/stars overlay */
 .stars-bg {
   position: fixed;
   top: 0;
@@ -25,7 +54,7 @@ body {
   height: 100%;
   pointer-events: none;
   overflow: hidden;
-  z-index: 0;
+  z-index: 1;
 }
 
 .stars-bg::before,
@@ -35,14 +64,14 @@ body {
   width: 100%;
   height: 100%;
   background-image:
-    radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.3), transparent),
-    radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.2), transparent),
-    radial-gradient(1px 1px at 90px 40px, rgba(255,255,255,0.4), transparent),
-    radial-gradient(2px 2px at 130px 80px, rgba(255,255,255,0.2), transparent),
-    radial-gradient(1px 1px at 160px 120px, rgba(255,255,255,0.5), transparent),
-    radial-gradient(2px 2px at 200px 50px, rgba(255,255,255,0.3), transparent),
-    radial-gradient(1px 1px at 250px 160px, rgba(255,255,255,0.2), transparent),
-    radial-gradient(2px 2px at 300px 100px, rgba(255,255,255,0.4), transparent);
+    radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.4), transparent),
+    radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 90px 40px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 130px 80px, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 160px 120px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 200px 50px, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 250px 160px, rgba(255,255,255,0.3), transparent),
+    radial-gradient(2px 2px at 300px 100px, rgba(255,255,255,0.5), transparent);
   background-repeat: repeat;
   background-size: 350px 350px;
   animation: twinkle 8s ease-in-out infinite;
@@ -50,21 +79,21 @@ body {
 
 .stars-bg::after {
   background-image:
-    radial-gradient(1px 1px at 50px 100px, rgba(255,255,255,0.4), transparent),
-    radial-gradient(2px 2px at 100px 150px, rgba(255,255,255,0.2), transparent),
-    radial-gradient(1px 1px at 180px 50px, rgba(255,255,255,0.3), transparent),
-    radial-gradient(2px 2px at 220px 200px, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1px 1px at 280px 80px, rgba(255,255,255,0.2), transparent);
+    radial-gradient(1px 1px at 50px 100px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 100px 150px, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 180px 50px, rgba(255,255,255,0.4), transparent),
+    radial-gradient(2px 2px at 220px 200px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 280px 80px, rgba(255,255,255,0.3), transparent);
   background-size: 400px 400px;
   animation: twinkle 12s ease-in-out infinite reverse;
 }
 
 @keyframes twinkle {
-  0%, 100% { opacity: 0.5; }
-  50% { opacity: 1; }
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
 }
 
-/* Title shimmer animation */
+/* Title shimmer animation - warm tones to match image */
 @keyframes shimmer {
   0% { background-position: -200% center; }
   100% { background-position: 200% center; }
@@ -73,20 +102,21 @@ body {
 .title-shimmer {
   background: linear-gradient(
     90deg,
-    #e94560 0%,
-    #f39c12 25%,
-    #ff6b6b 50%,
-    #f39c12 75%,
-    #e94560 100%
+    #f5a623 0%,
+    #ffcc80 25%,
+    #fff5e6 50%,
+    #ffcc80 75%,
+    #f5a623 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shimmer 4s linear infinite;
+  text-shadow: none;
 }
 
-/* Glow effect for sections */
+/* Glow effect for sections - warm amber */
 .section-glow {
   position: relative;
 }
@@ -98,12 +128,12 @@ body {
   left: -20px;
   width: 3px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #e94560, transparent);
-  opacity: 0.5;
+  background: linear-gradient(180deg, transparent, #f5a623, transparent);
+  opacity: 0.6;
   border-radius: 2px;
 }
 
-/* Drop cap styling */
+/* Drop cap styling - warm gold */
 .drop-cap {
   float: left;
   font-family: 'Playfair Display', serif;
@@ -111,11 +141,11 @@ body {
   line-height: 0.8;
   padding-right: 12px;
   padding-top: 8px;
-  color: #e94560;
-  text-shadow: 0 0 30px rgba(233, 69, 96, 0.5);
+  color: #f5a623;
+  text-shadow: 0 0 30px rgba(245, 166, 35, 0.5);
 }
 
-/* Decorative divider */
+/* Decorative divider - warm tones */
 .divider {
   display: flex;
   align-items: center;
@@ -128,13 +158,13 @@ body {
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(233, 69, 96, 0.3), transparent);
+  background: linear-gradient(90deg, transparent, rgba(245, 166, 35, 0.4), transparent);
 }
 
 .divider-icon {
   padding: 0 1rem;
-  color: #e94560;
-  opacity: 0.6;
+  color: #f5a623;
+  opacity: 0.7;
 }
 
 /* Fade in animation */
@@ -153,14 +183,15 @@ body {
   animation: fadeInUp 1s ease-out forwards;
 }
 
-/* Quote styling */
+/* Quote styling - warm amber */
 .romantic-quote {
   position: relative;
   padding: 1.5rem 2rem;
   margin: 2rem 0;
-  background: linear-gradient(135deg, rgba(233, 69, 96, 0.05), rgba(243, 156, 18, 0.03));
-  border-left: 3px solid #e94560;
+  background: linear-gradient(135deg, rgba(245, 166, 35, 0.08), rgba(255, 204, 128, 0.05));
+  border-left: 3px solid #f5a623;
   border-radius: 0 8px 8px 0;
+  backdrop-filter: blur(5px);
 }
 
 .romantic-quote::before {
@@ -169,19 +200,46 @@ body {
   top: -10px;
   left: 10px;
   font-size: 4rem;
-  color: rgba(233, 69, 96, 0.2);
+  color: rgba(245, 166, 35, 0.25);
   font-family: 'Playfair Display', serif;
 }
 
-/* Moon reflection effect */
-.moon-glow {
+/* Warm glow effect */
+.warm-glow {
   position: fixed;
-  top: 10%;
-  right: 10%;
-  width: 80px;
-  height: 80px;
-  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  top: 5%;
+  right: 5%;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(245, 166, 35, 0.15) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
+  filter: blur(20px);
+}
+
+/* Story container glass effect */
+.story-container {
+  background: rgba(10, 10, 15, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(245, 166, 35, 0.1);
+  border-radius: 16px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 15, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 166, 35, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 166, 35, 0.5);
 }
