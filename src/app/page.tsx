@@ -145,10 +145,20 @@ export default function Home() {
               nights with exhaustion. But that night, we returned. And the lake welcomed
               us back like an old friend who never forgot.
             </p>
+            <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
+              We sat together at the water&apos;s edge, side by side, our shoulders touching
+              as the night wrapped itself around us. Above, the sky stretched endless and dark,
+              scattered with a thousand stars that seemed to shine just for us. And below,
+              the lake lay perfectly still, so calm that it held the entire universe in its reflection.
+              Every star, every constellation, mirrored on the water&apos;s surface like scattered diamonds.
+            </p>
             <p className="text-base sm:text-xl text-gray-200 text-justify leading-relaxed indent-6 sm:indent-12">
-              We sat at the water&apos;s edge, shoulders touching, watching the stars
-              dance on the surface. The silence wasn&apos;t empty. It was <em className="text-amber-400">full</em>.
-              Full of everything we&apos;ve shared, everything we are, everything we will be.
+              It felt like we were floating somewhere between two skies, suspended in a moment
+              that belonged only to us. The cool night air carried the faint scent of earth and water,
+              and the only sound was the gentle rhythm of our breathing. Your hand found mine in the darkness,
+              and we sat there, watching the stars dance on the surface of the water. The silence wasn&apos;t empty.
+              It was <em className="text-amber-400">full</em>. Full of everything we&apos;ve shared, everything we are,
+              everything we will be.
             </p>
           </section>
 
