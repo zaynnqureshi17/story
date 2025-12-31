@@ -34,13 +34,10 @@ export default function Home() {
         </header>
 
         {/* Story Content */}
-        <main className="story-container p-5 sm:p-8 md:p-12 space-y-10 sm:space-y-16">
+        <main className="story-container p-5 sm:p-8 md:p-12 space-y-8 sm:space-y-12">
 
-          {/* Part 1 - The Red Saree */}
-          <section className="section-glow pl-4 sm:pl-8 fade-in">
-            <h2 className="text-2xl sm:text-3xl text-amber-400 mb-6 sm:mb-8 font-['Playfair_Display'] font-light tracking-wide">
-              I. The Red Saree
-            </h2>
+          {/* Opening */}
+          <section className="fade-in">
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
               <span className="drop-cap">T</span>
               here are some nights that stay with you forever. Nights that settle into your bones
@@ -93,11 +90,8 @@ export default function Home() {
             <span className="divider-icon">&#10022;</span>
           </div>
 
-          {/* Part 2 - Dinner & The Long Drive */}
-          <section className="section-glow pl-4 sm:pl-8">
-            <h2 className="text-2xl sm:text-3xl text-amber-400 mb-6 sm:mb-8 font-['Playfair_Display'] font-light tracking-wide">
-              II. Dinner &amp; The Long Drive
-            </h2>
+          {/* Dinner & Drive */}
+          <section>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
               <span className="drop-cap">W</span>
               e went out for dinner instead. A quiet little place, nothing fancy. Just good
@@ -129,11 +123,8 @@ export default function Home() {
             <span className="divider-icon">&#10022;</span>
           </div>
 
-          {/* Part 3 - Our Spot */}
-          <section className="section-glow pl-4 sm:pl-8">
-            <h2 className="text-2xl sm:text-3xl text-amber-400 mb-6 sm:mb-8 font-['Playfair_Display'] font-light tracking-wide">
-              III. Our Spot
-            </h2>
+          {/* Our Spot */}
+          <section>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
               <span className="drop-cap">A</span>
               few kilometers down the street, there&apos;s a place. <em className="text-amber-400">Our place</em>.
@@ -166,11 +157,8 @@ export default function Home() {
             <span className="divider-icon">&#10022;</span>
           </div>
 
-          {/* Part 4 - Hours Like Minutes */}
-          <section className="section-glow pl-4 sm:pl-8">
-            <h2 className="text-2xl sm:text-3xl text-amber-400 mb-6 sm:mb-8 font-['Playfair_Display'] font-light tracking-wide">
-              IV. Hours Like Minutes
-            </h2>
+          {/* Hours Like Minutes */}
+          <section>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
               <span className="drop-cap">W</span>
               e talked for hours. About everything and nothing. About dreams we&apos;ve
@@ -198,11 +186,8 @@ export default function Home() {
             <span className="divider-icon">&#10022;</span>
           </div>
 
-          {/* Part 5 - You Are My World */}
-          <section className="section-glow pl-4 sm:pl-8">
-            <h2 className="text-2xl sm:text-3xl text-amber-400 mb-6 sm:mb-8 font-['Playfair_Display'] font-light tracking-wide">
-              V. You Are My World
-            </h2>
+          {/* You Are My World */}
+          <section>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
               <span className="drop-cap">Y</span>
               ou asked me something that night, your voice soft against the silence.
