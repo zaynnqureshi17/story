@@ -198,28 +198,35 @@ export default function Home() {
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
-              I did. I remembered the broken pieces I carried, the wounds I thought
-              would never heal, the walls I had built so high that even I couldn&apos;t
-              see over them. I remembered the darkness that felt endless, the nights
-              that stretched too long, the silence that was never peaceful.
+              You looked at me for a long moment, your eyes soft with memories. And then
+              you spoke, your voice gentle, like you were handling something fragile.
             </p>
+            <div className="romantic-quote my-6 sm:my-10">
+              <p className="text-base sm:text-xl text-gray-300 italic leading-relaxed">
+                &quot;I remember. You were broken. Carrying wounds you thought would never heal,
+                walls so high that even you couldn&apos;t see over them. The darkness felt endless
+                for you. The nights stretched too long. The silence was never peaceful.&quot;
+              </p>
+            </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
-              And then you came. Not with grand promises or dramatic gestures. Just
-              with patience. With presence. You stayed when others left. You listened
-              when the world stopped caring. You saw the mess I was and chose to stay
-              anyway, piece by piece helping me put myself back together.
+              You paused, reaching for my hand.
             </p>
+            <div className="romantic-quote my-6 sm:my-10">
+              <p className="text-base sm:text-xl text-gray-300 italic leading-relaxed">
+                &quot;But I stayed. Not because I had to, but because I saw something in you
+                worth staying for. I saw the mess you were and chose to stay anyway,
+                piece by piece helping you put yourself back together. I taught you that
+                healing doesn&apos;t happen overnight. That it&apos;s okay to fall apart sometimes,
+                as long as there&apos;s someone willing to sit with you in the ruins.&quot;
+              </p>
+            </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
-              You taught me that healing doesn&apos;t happen overnight. That it&apos;s okay
-              to fall apart sometimes, as long as there&apos;s someone willing to sit with
-              you in the ruins. You were that someone. You <em className="text-amber-400">are</em> that someone.
+              I felt my eyes burn with tears I didn&apos;t try to hide.
             </p>
             <div className="romantic-quote my-6 sm:my-10">
               <p className="text-base sm:text-xl text-gray-200 italic leading-relaxed">
-                &quot;I remember,&quot; I said quietly. &quot;I remember who I was before you.
-                And I know who I am now because of you. You didn&apos;t just change my life.
-                You saved it. You gave me a reason to believe that maybe, just maybe,
-                I was worth staying for.&quot;
+                &quot;You saved me,&quot; I whispered. &quot;You gave me a reason to believe that maybe,
+                just maybe, I was worth staying for.&quot;
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
