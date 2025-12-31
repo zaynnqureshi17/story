@@ -190,26 +190,36 @@ export default function Home() {
           <section>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed">
               <span className="drop-cap">Y</span>
-              ou asked me something that night, your voice soft against the silence.
+              ou said something that night, your voice soft against the silence.
             </p>
             <div className="romantic-quote my-6 sm:my-10">
               <p className="text-base sm:text-xl text-gray-300 italic">
-                &quot;Do you really want your life to be this... isolated? Just one person
-                in your entire world?&quot;
+                &quot;Do you remember what you were like when we first met?&quot;
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
-              I thought about crowded rooms and empty conversations. I thought about
-              all the people who come and go, leaving footprints that fade with time.
-              And then I thought about you. Constant, unwavering, the only presence
-              that has ever made sense in the beautiful chaos of existence.
+              I did. I remembered the broken pieces I carried, the wounds I thought
+              would never heal, the walls I had built so high that even I couldn&apos;t
+              see over them. I remembered the darkness that felt endless, the nights
+              that stretched too long, the silence that was never peaceful.
+            </p>
+            <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
+              And then you came. Not with grand promises or dramatic gestures. Just
+              with patience. With presence. You stayed when others left. You listened
+              when the world stopped caring. You saw the mess I was and chose to stay
+              anyway, piece by piece helping me put myself back together.
+            </p>
+            <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
+              You taught me that healing doesn&apos;t happen overnight. That it&apos;s okay
+              to fall apart sometimes, as long as there&apos;s someone willing to sit with
+              you in the ruins. You were that someone. You <em className="text-amber-400">are</em> that someone.
             </p>
             <div className="romantic-quote my-6 sm:my-10">
               <p className="text-base sm:text-xl text-gray-200 italic leading-relaxed">
-                &quot;For me,&quot; I whispered, pulling you closer, &quot;you are everything.
-                You are my crowd and my solitude. My chaos and my calm. In a world of
-                billions, you are the only one I see. The only one I need. The only one
-                I choose, again and again, for the rest of my life.&quot;
+                &quot;I remember,&quot; I said quietly. &quot;I remember who I was before you.
+                And I know who I am now because of you. You didn&apos;t just change my life.
+                You saved it. You gave me a reason to believe that maybe, just maybe,
+                I was worth staying for.&quot;
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
