@@ -74,7 +74,7 @@ export default function Home() {
             </p>
             <div className="romantic-quote my-6 sm:my-10">
               <p className="text-base sm:text-xl text-gray-300 italic">
-                &quot;Let&apos;s not go,&quot; I whispered against your ear.
+                &quot;You don&apos;t want to go either, do you?&quot; I whispered softly.
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 text-justify leading-relaxed indent-6 sm:indent-12">
