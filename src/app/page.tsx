@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-amber-400/70 text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-4 sm:mb-6">
             A Story Written in Stardust
           </p>
-          <h1 className="text-3xl sm:text-5xl md:text-7xl font-light tracking-wide mb-4 sm:mb-6 title-shimmer font-['Playfair_Display']">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-light tracking-wide mb-4 sm:mb-6 title-shimmer font-['Playfair_Display'] leading-normal pb-1">
             The Night We Chose Us
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 italic font-light px-4">
@@ -219,7 +219,7 @@ export default function Home() {
             <div className="romantic-quote my-6 sm:my-10">
               <p className="text-base sm:text-xl text-gray-200 italic leading-relaxed">
                 &quot;You saved me,&quot; I whispered. &quot;You gave me a reason to believe that maybe,
-                just maybe, I was worth staying for.&quot;
+                just maybe, I was worth living and loving my life.&quot;
               </p>
             </div>
             <p className="text-base sm:text-xl text-gray-200 mb-6 sm:mb-8 text-justify leading-relaxed indent-6 sm:indent-12">
